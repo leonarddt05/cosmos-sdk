@@ -54,6 +54,7 @@ Ref: https://keepachangelog.com/en/1.0.0/
 
 ### Bug Fixes
 
+* [#18651](https://github.com/cosmos/cosmos-sdk/pull/18651) Propogate iavl.MutableTree.Remove errors firstly to the caller instead of returning a synthesized error firstly.
 * [#16588](https://github.com/cosmos/cosmos-sdk/pull/16588) Propogate the Snapshotter's failure to the caller, (it will create a empty snapshot silently before).
 
 ## [v0.1.0-alpha.1](https://github.com/cosmos/cosmos-sdk/releases/tag/store%2Fv0.1.0-alpha.1) - 2023-03-17
